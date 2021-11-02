@@ -34,7 +34,7 @@ class App extends Component {
   
   
   render()  { 
-    // Entre le rendre et le return pour un console log et on veux consoleloger ce qui a entre les accolades {}
+    
    
     return (
       <div className="container">
