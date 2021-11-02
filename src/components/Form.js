@@ -12,15 +12,15 @@ class Form extends Component {
     }
     
   handleTaskDescriptionChange(e){
-    this.setState({ task:e.target.value})
-    console.log(e.target.value)
+    this.setState({task:e.target.value})
+    // console.log(e.target.value)
     
     }
 
     handleSubmit(e){
         e.preventDefault()
-        this.setState({task:""})
-        // console.log(task)
+        this.props.addTask(this.state.task)
+      
     
       }
     
